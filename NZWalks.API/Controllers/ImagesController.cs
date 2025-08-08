@@ -43,7 +43,7 @@ namespace NZWalks.API.Controllers
         }
         private void ValidateUpload(ImageUploadRequestDto imageUploadRequestDto) 
         {
-            string[] allowedExtensions = new string[] { ".jpg", ".jpeg", ".png" };
+            string[] allowedExtensions = new string[] { ".jpg", ".jpeg", ".png", ".pdf" };
 
             if (!allowedExtensions.Contains(Path.GetExtension(imageUploadRequestDto.File.FileName)))
             {
