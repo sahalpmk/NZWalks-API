@@ -13,6 +13,9 @@ using Serilog;
 using System.Net.NetworkInformation;
 using System.Text;
 
+//NZWalks - API 
+
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
