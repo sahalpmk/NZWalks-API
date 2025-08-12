@@ -13,7 +13,7 @@ using Serilog;
 using System.Net.NetworkInformation;
 using System.Text;
 
-//NZWalks - API 
+//NZWalks.API - Backend Web API Services
 
 
 var builder = WebApplication.CreateBuilder(args);
